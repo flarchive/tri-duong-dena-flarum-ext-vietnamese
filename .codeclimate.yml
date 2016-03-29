@@ -1,0 +1,14 @@
+engines:
+  markdownlint:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+  phpmd:
+    enabled: true
+
+ratings:
+  paths:
+  - "bootstrap.php"
+  - "README.md"
