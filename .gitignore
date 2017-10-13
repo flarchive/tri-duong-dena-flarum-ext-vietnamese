@@ -1,0 +1,19 @@
+# Specifies intentionally untracked files to ignore.
+# https://git-scm.com/docs/gitignore
+
+# Ignore Composer files.
+/vendor
+composer.phar
+
+# Ignore operating system files.
+*~
+._*
+.AppleDouble
+.directory
+.DS_Store
+.LSOverride
+.Trash-*
+Desktop.ini
+ehthumbs.db
+Icon
+Thumbs.db
